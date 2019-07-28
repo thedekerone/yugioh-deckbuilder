@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78bba03e69877fffed48869d94c8fefd",
+    "revision": "4c48ed7b5edae8cd9e9af55364e4f0f5",
     "url": "/yugioh-deckbuilder/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yugioh-deckbuilder/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "40736d7e8bfc37152358",
+    "revision": "52911d8a2a5ee20db803",
     "url": "/yugioh-deckbuilder/static/css/main.ed6720e0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yugioh-deckbuilder/static/js/2.5ccedcce.chunk.js"
   },
   {
-    "revision": "40736d7e8bfc37152358",
-    "url": "/yugioh-deckbuilder/static/js/main.e108ae4e.chunk.js"
+    "revision": "52911d8a2a5ee20db803",
+    "url": "/yugioh-deckbuilder/static/js/main.76dc2f15.chunk.js"
   },
   {
     "revision": "30fd8eedb6a794c9161c",
