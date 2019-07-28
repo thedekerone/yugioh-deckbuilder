@@ -6,65 +6,26 @@ import './App.css';
 import Loading from './components/Loading';
 
 export default class App extends Component {
-	state = {
-		loading    : true,
-		error      : null,
-		data       : [],
-		limitValue : 50,
-		match      : ''
-	};
-	req;
-	getData = () => {
-		this.setState({
-			loading : true,
-			error   : null
-		});
-		this.req = axios
-			.get('https://db.ygoprodeck.com/api/v4/cardinfo.php')
-			.then((res) => {
-				const data = res.data[0];
-				console.log(data);
-				this.setState({ loading: false, data: data });
-			})
-			.catch((err) => {
-				console.log(err);
-				this.setState({ loading: false, error: err });
-			});
-	};
-
-	handleChange = (e) => {
-		this.setState({ match: e.target.value });
-	};
-
-	handleClick = () => {
-		this.setState({ limitValue: this.state.limitValue + 50 });
-	};
-
-	componentWillUnmount() {
-		console.log('unmount component');
-		this.axiosCancelSource.cancel('Component unmounted.');
-	}
-
-	componentDidMount() {
-		this.axiosCancelSource = axios.CancelToken.source();
-		this.getData();
-	}
-
 	render() {
 		return (
 			<div>
 				<h1>Cards</h1>
-				<input type='text' className='form-control' onChange={this.handleChange} value={this.state.match} />
-				<button className='btn btn-dark mb-4' onClick={this.handleClick}>
+				<input
+					type='text'
+					className='form-control'
+					onChange={this.props.change}
+					value={this.props.main.match}
+				/>
+				<button className='btn btn-dark mb-4' onClick={this.props.click}>
 					Show more!
 				</button>
-				{this.state.loading ? <Loading /> : null}
+				{this.props.main.loading ? <Loading /> : null}
 				<CardsList
-					data={this.state.data
+					data={this.props.main.data
 						.filter((element) => {
-							return element.name.toLowerCase().includes(this.state.match.toLowerCase());
+							return element.name.toLowerCase().includes(this.props.main.match.toLowerCase());
 						})
-						.slice(1, this.state.limitValue)
+						.slice(1, this.props.main.limitValue)
 						.reverse()}
 				/>
 			</div>

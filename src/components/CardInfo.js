@@ -7,6 +7,9 @@ export default class CardInfo extends Component {
 	};
 
 	render() {
+		if (!this.state.target) {
+			return <h1>error lul</h1>;
+		}
 		if (this.state.loading === true) {
 			return (
 				<div className='loading'>
@@ -14,15 +17,16 @@ export default class CardInfo extends Component {
 				</div>
 			);
 		}
+
 		return (
 			<React.Fragment>
 				<h1>{this.state.target.name}</h1>
 				<div className='loading card mb-3 ' style={{ maxWidth: ' 840px' }}>
 					<div className='row no-gutters'>
-						<div className='col-md-4'>
+						<div className='col-md-6'>
 							<img src={this.state.target.image_url} alt='' width='300px' />
 						</div>
-						<div className='col-md-8'>
+						<div className='col-md-6'>
 							<p className='ml-4 col-md-8'>{this.state.target.desc}</p>
 						</div>
 					</div>
