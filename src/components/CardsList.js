@@ -11,7 +11,7 @@ export default function CardsList({ data }) {
 						<li key={card.id}>
 							<Link
 								to={{
-									pathname : '/cards/' + card.id,
+									pathname : '/' + card.id,
 									state    : {
 										carta : card
 									}

@@ -8,8 +8,8 @@ export default class Main extends Component {
 		return (
 			<BrowserRouter>
 				<Switch>
-					<Route exact path='/cards' component={App} />
-					<Route exact path='/cards/:cardId' component={CardInfo} />
+					<Route exact path='/' component={App} />
+					<Route exact path='/:cardId' component={CardInfo} />
 				</Switch>
 			</BrowserRouter>
 		);
