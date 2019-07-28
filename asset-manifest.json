@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/yugioh-deckbuilder/static/css/main.ed6720e0.chunk.css",
-    "main.js": "/yugioh-deckbuilder/static/js/main.ebbcc440.chunk.js",
-    "main.js.map": "/yugioh-deckbuilder/static/js/main.ebbcc440.chunk.js.map",
+    "main.css": "/yugioh-deckbuilder/static/css/main.ae353490.chunk.css",
+    "main.js": "/yugioh-deckbuilder/static/js/main.2384a90d.chunk.js",
+    "main.js.map": "/yugioh-deckbuilder/static/js/main.2384a90d.chunk.js.map",
     "runtime~main.js": "/yugioh-deckbuilder/static/js/runtime~main.bdc8c11e.js",
     "runtime~main.js.map": "/yugioh-deckbuilder/static/js/runtime~main.bdc8c11e.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/yugioh-deckbuilder/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.b742cbdb.chunk.js": "/yugioh-deckbuilder/static/js/2.b742cbdb.chunk.js",
-    "static/js/2.b742cbdb.chunk.js.map": "/yugioh-deckbuilder/static/js/2.b742cbdb.chunk.js.map",
+    "static/js/2.10e3f45b.chunk.js": "/yugioh-deckbuilder/static/js/2.10e3f45b.chunk.js",
+    "static/js/2.10e3f45b.chunk.js.map": "/yugioh-deckbuilder/static/js/2.10e3f45b.chunk.js.map",
     "index.html": "/yugioh-deckbuilder/index.html",
-    "precache-manifest.f483a4b0b17999ea9c9f9c37eea7ff41.js": "/yugioh-deckbuilder/precache-manifest.f483a4b0b17999ea9c9f9c37eea7ff41.js",
+    "precache-manifest.0909683f2e4695e4a0361d2be20f0732.js": "/yugioh-deckbuilder/precache-manifest.0909683f2e4695e4a0361d2be20f0732.js",
     "service-worker.js": "/yugioh-deckbuilder/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/yugioh-deckbuilder/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.ed6720e0.chunk.css.map": "/yugioh-deckbuilder/static/css/main.ed6720e0.chunk.css.map"
+    "static/css/main.ae353490.chunk.css.map": "/yugioh-deckbuilder/static/css/main.ae353490.chunk.css.map"
   }
 }
