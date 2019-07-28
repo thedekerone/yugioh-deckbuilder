@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yugioh-deckbuilder/precache-manifest.50426bfb9f8adf2906795e4b0bfe7691.js"
+  "/yugioh-deckbuilder/precache-manifest.009245c0ebb1a77421c28f7469da1a7c.js"
 );
 
 self.addEventListener('message', (event) => {
