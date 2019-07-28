@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import Loading from './Loading';
 
 export default class CardInfo extends Component {
@@ -29,10 +28,10 @@ export default class CardInfo extends Component {
 					</div>
 				</div>
 				<div>
-					ebay:<a className='btn btn-primary'> {this.state.target.ebay_price}</a>
+					ebay:<button className='btn btn-primary'> {this.state.target.ebay_price}</button>
 				</div>
 				<div>
-					amazon:<a className='btn btn-primary'> {this.state.target.amazon_price}</a>
+					amazon:<button className='btn btn-primary'> {this.state.target.amazon_price}</button>
 				</div>
 			</React.Fragment>
 		);

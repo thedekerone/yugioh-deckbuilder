@@ -11,7 +11,7 @@ export default function CardsList({ data }) {
 						<li key={card.id}>
 							<Link
 								to={{
-									pathname : '/' + card.id,
+									pathname : '/yugioh-deckbuilder/' + card.id,
 									state    : {
 										carta : card
 									}
