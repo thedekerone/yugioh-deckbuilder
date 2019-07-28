@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yugioh-deckbuilder/static/css/main.ed6720e0.chunk.css",
-    "main.js": "/yugioh-deckbuilder/static/js/main.aaf7e48e.chunk.js",
-    "main.js.map": "/yugioh-deckbuilder/static/js/main.aaf7e48e.chunk.js.map",
+    "main.js": "/yugioh-deckbuilder/static/js/main.9584cfc4.chunk.js",
+    "main.js.map": "/yugioh-deckbuilder/static/js/main.9584cfc4.chunk.js.map",
     "runtime~main.js": "/yugioh-deckbuilder/static/js/runtime~main.bdc8c11e.js",
     "runtime~main.js.map": "/yugioh-deckbuilder/static/js/runtime~main.bdc8c11e.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/yugioh-deckbuilder/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.b742cbdb.chunk.js": "/yugioh-deckbuilder/static/js/2.b742cbdb.chunk.js",
     "static/js/2.b742cbdb.chunk.js.map": "/yugioh-deckbuilder/static/js/2.b742cbdb.chunk.js.map",
     "index.html": "/yugioh-deckbuilder/index.html",
-    "precache-manifest.b6b5e66a4d5fd04d83012f0740efbcf3.js": "/yugioh-deckbuilder/precache-manifest.b6b5e66a4d5fd04d83012f0740efbcf3.js",
+    "precache-manifest.83b66562391b2c806bff36611dabeab8.js": "/yugioh-deckbuilder/precache-manifest.83b66562391b2c806bff36611dabeab8.js",
     "service-worker.js": "/yugioh-deckbuilder/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/yugioh-deckbuilder/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.ed6720e0.chunk.css.map": "/yugioh-deckbuilder/static/css/main.ed6720e0.chunk.css.map"
