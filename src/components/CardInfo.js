@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
 import Loading from './Loading';
+import {Link} from 'react-router-dom'
 
 export default class CardInfo extends Component {
 	state = {
-		target : this.props.location.state.carta
+		target : {
+			error:'error'
+		}
 	};
 
+	componentDidMount() {
+		try{
+			this.props.location.state.carta
+			? this.setState({ error:null,target: this.props.location.state.carta })
+			: this.setState({ error: 'error' });
+		}catch{
+			console.log('xd')
+		}
+	}
 	render() {
-		if (!this.state.target) {
-			return <h1>error lul</h1>;
+		if (this.state.target.error === 'error') {
+			return (
+				<React.Fragment>
+					<h1>Card not found</h1>
+					<Link to='/yugioh-deckbuilder' className='btn btn-primary'>Go back</Link>
+				</React.Fragment>);
 		}
 		if (this.state.loading === true) {
 			return (
